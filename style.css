@@ -21,6 +21,14 @@ body {
   text-align: center;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+section {
+  scroll-margin-top: 80px;
+}
+
 
 .hero::after {
   content: "";
