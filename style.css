@@ -109,6 +109,18 @@ section {
   font-size: 1.2rem;
 }
 
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
 .buttons a {
   padding: 12px 25px;
   margin: 10px;
@@ -287,6 +299,27 @@ footer {
   form {
     width: 100%;
   }
+
+
+
+@media (max-width: 1024px) {
+
+  .hero h1 {
+    font-size: 2.4rem;
+  }
+
+  section {
+    padding: 70px 6%;
+  }
+
+  .cards,
+  .project-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+}
+
+  
 
 }
 
