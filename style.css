@@ -231,3 +231,62 @@ footer {
   padding: 20px;
   background: #111;
 }
+
+
+
+@media (max-width: 768px) {
+
+  /* HERO */
+  .hero {
+    padding: 40px 20px;
+    height: auto;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .typing {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .buttons {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .buttons a {
+    width: 100%;
+    max-width: 280px;
+    text-align: center;
+  }
+
+  /* SECTIONS */
+  section {
+    padding: 60px 20px;
+  }
+
+  /* ABOUT */
+  .about p {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
+  /* SERVICES */
+  .cards {
+    grid-template-columns: 1fr;
+  }
+
+  /* PROJECTS */
+  .project-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* CONTACT */
+  form {
+    width: 100%;
+  }
+
+}
+
